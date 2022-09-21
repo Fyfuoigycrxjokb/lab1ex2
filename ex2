@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a, b;
+    printf("input number a\n");
+    scanf ("%d", &a);
+    printf ("input number b\n");
+    scanf ("%d",&b);
+    if (a==b)
+        printf ("number a is equal to number b");
+        else
+        printf ("number a is not equal to number b");
+    return 0;
+}
